@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;400;500;700&display=swap');
+/*font-family: 'Mulish', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+/*font-family: 'Open Sans', sans-serif;*/
+*{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+span{
+    color: #89C5CC;
+    font-weight: bold;
+}
+strong{
+    color: #7D7987;
+}
+a{
+    text-decoration: none;
+}
+/*Cabeçario*/
+.container1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    padding: 0px 5px 0px 5px;
+    margin: 65px auto 0px auto;
+}
+nav{
+    padding-top: 5px;
+}
+.item1_2>ul{
+    display: flex;
+    list-style: none;
+}
+.item1_2>ul>a{
+    font: normal 16px 'Mulish';
+    color: #7D7987;
+    text-decoration: none;
+    padding-left: 50px;
+}
+.item1_2>ul>a:hover{
+    color: black;
+    font-weight: bolder;
+}
+/*Corpo*/
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1000px;
+    padding: 0px 5px 0px 5px;
+    margin: 55px auto;
+}
+.item2_1{
+    padding-top: 70px;
+}
+.item2_1>h1{
+    font: 400 3em 'Mulish';
+    line-height: 55px;
+    padding-bottom: 45px;
+}
+.item2_1>p{
+    color: #7D7987;
+    font: 500 1em 'Mulish';
+    line-height: 30px;
+    padding-bottom: 40px;
+}
+/*Botão comece já*/
+#botao{
+    display: flex;
+    background-color: #69B99D;
+    color: white;
+    border-radius: 5px;
+    padding: 15px 32px 15px 32px;
+
+    cursor: pointer;/*cursor do mouse*/
+}
+#botao>img{
+    padding-right: 10px;
+}
+button>p{
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 2px;
+}
+#botao:hover{
+    background-color: #498f76;/*precisa ter o cursor: pointer; para funcionar*/
+}
+/*Roda-pe*/
+footer>p{
+    text-align: center;
+    color: black;
+    font: normal 0.9em 'Open Sans';
+    padding-top: 20px;
+}
+#black{
+    color: black;
+}
+.balls{
+    height: 250px;
+    padding-right: 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+/*.balls{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}*/
